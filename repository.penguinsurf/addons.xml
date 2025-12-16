@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<addons>
+    <addon id="plugin.video.penguinsurf" name="PenguinSurf" version="1.0.0" provider-name="Manus">
+        <requires>
+            <import addon="xbmc.python" version="3.0.0"/>
+            <import addon="xbmc.addon" version="19.0.0"/>
+            <import addon="script.module.requests" version="2.22.0"/>
+            <import addon="script.module.beautifulsoup4" version="4.8.0"/>
+        </requires>
+        <extension point="xbmc.python.pluginsource" library="default.py">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en">Surf the streams with PenguinSurf - Movies and TV Shows without restrictions.</summary>
+            <summary lang="fr">Surfez sur les flux avec PenguinSurf - Films et émissions de télévision sans restrictions.</summary>
+            <summary lang="ar">تصفح البث مع PenguinSurf - أفلام وبرامج تلفزيونية بدون قيود.</summary>
+            <summary lang="ja">PenguinSurfでストリームをサーフィン - 制限なしの映画とテレビ番組。</summary>
+            <summary lang="ko">PenguinSurf로 스트림 서핑 - 제한 없는 영화 및 TV 프로그램.</summary>
+            <summary lang="es">Navega por los streams con PenguinSurf - Películas y programas de televisión sin restricciones.</summary>
+            <description lang="en">A free, no-restriction video addon for Movies and TV Shows, inspired by the features of The Crew, but without the need for external services like Real Debrid or Trakt. Compatible with Kodi 19+ (Python 3).</description>
+            <description lang="fr">Un addon vidéo gratuit et sans restriction pour les films et les émissions de télévision, inspiré des fonctionnalités de The Crew, mais sans avoir besoin de services externes comme Real Debrid ou Trakt. Compatible avec Kodi 19+ (Python 3).</description>
+            <description lang="ar">إضافة فيديو مجانية وبدون قيود للأفلام والبرامج التلفزيونية، مستوحاة من ميزات The Crew، ولكن دون الحاجة إلى خدمات خارجية مثل Real Debrid أو Trakt. متوافق مع Kodi 19+ (Python 3).</description>
+            <description lang="ja">The Crewの機能にインスパイアされた、映画やテレビ番組向けの無料かつ制限のないビデオアドオンですが、Real DebridやTraktなどの外部サービスは必要ありません。Kodi 19+（Python 3）に対応しています。</description>
+            <description lang="ko">The Crew의 기능에서 영감을 받은 영화 및 TV 프로그램용 무료 무제한 비디오 애드온이지만, Real Debrid 또는 Trakt와 같은 외부 서비스가 필요하지 않습니다. Kodi 19+ (Python 3)와 호환됩니다.</description>
+            <description lang="es">Un complemento de video gratuito y sin restricciones para películas y programas de televisión, inspirado en las características de The Crew, pero sin la necesidad de servicios externos como Real Debrid o Trakt. Compatible con Kodi 19+ (Python 3).</description>
+            <platform>all</platform>
+            <license>GPL-3.0-or-later</license>
+        </extension>
+    </addon>
+</addons>

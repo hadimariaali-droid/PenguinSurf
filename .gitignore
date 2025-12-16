@@ -1,0 +1,6 @@
+# Ignore temporary files and cache
+.cache/
+__pycache__/
+*.zip
+repository_files_updated.zip
+repository_files_final.zip
