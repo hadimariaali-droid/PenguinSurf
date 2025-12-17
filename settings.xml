@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <category id="general" label="30000">
+        <setting id="debug_mode" type="bool" label="30001" default="false" />
+        <setting id="source_priority" type="enum" label="30002" values="Source A|Source B|Source C" default="0" />
+    </category>
+</settings>
