@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.penguinsurf"
+<addon id="plugin.video.penguinsurf.k20"
        name="PenguinSurf"
        version="1.0.0"
        provider-name="Manus">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
-        <import addon="xbmc.addon" version="19.0.0"/>
+        <import addon="xbmc.addon" version="20.0.0"/>
         <import addon="script.module.requests" version="2.22.0"/>
         <import addon="script.module.beautifulsoup4" version="4.8.0"/>
         <import addon="script.module.scrapepenguin" version="1.0.0"/>

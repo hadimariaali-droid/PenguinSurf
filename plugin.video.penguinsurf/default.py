@@ -11,6 +11,7 @@ import xbmcgui
 import urllib.parse
 import xbmc
 from . import scraper
+from script.module.scrapepenguin.lib.scrapepenguin import Scraper
 
 # Get the plugin url in proper encoding
 __url__ = sys.argv[0]
@@ -164,7 +165,14 @@ def resolve_item(item_id, item_type, title):
     xbmc.log(f"Resolving stream for {item_type} ID: {item_id}, Title: {title}", xbmc.LOGINFO)
     
     # Use the scraper to find a stream URL
-    stream_url = scraper.resolve_stream_url(title)
+    # Conceptual region-locked stream URL
+region_locked_url = "http://geo-restricted.example.com/stream/movie_id_{0}".format(item_id)
+# Use ScrapePenguin to get the unblocked URL
+stream_url = Scraper.get_unblocked_url(region_locked_url)
+
+# In a real scenario, you would still need to resolve the actual stream,
+# but for this conceptual implementation, we use the unblocked URL directly.
+# stream_url = scraper.resolve_stream_url(title) # Original line for reference
     
     if stream_url:
         xbmc.log(f"Stream found: {stream_url}", xbmc.LOGINFO)
