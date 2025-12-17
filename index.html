@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PenguinSurf Kodi Repository</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; background-color: #f4f4f9; color: #333; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+        h1 { color: #0056b3; border-bottom: 2px solid #0056b3; padding-bottom: 10px; }
+        h2 { color: #333; margin-top: 20px; }
+        code { background: #eee; padding: 2px 4px; border-radius: 4px; }
+        .install-box { border: 1px solid #ccc; padding: 15px; border-radius: 5px; background-color: #e9e9e9; margin-bottom: 20px; }
+        .addon-list { list-style-type: none; padding: 0; }
+        .addon-list li { background: #f9f9f9; margin-bottom: 5px; padding: 10px; border-left: 5px solid #0056b3; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the PenguinSurf Kodi Repository</h1>
+        <p>The official source for the PenguinSurf suite of Kodi Addons, providing region-free access to a wide range of content including Movies, TV Shows, Live TV, Sports, and Documentaries.</p>
+
+        <h2>Installation Instructions</h2>
+        <p>Follow these steps to install the PenguinSurf Repository in Kodi:</p>
+
+        <div class="install-box">
+            <ol>
+                <li>Open **Kodi**.</li>
+                <li>Go to **Settings** (the gear icon) -> **File Manager** -> **Add source**.</li>
+                <li>In the text box labeled <code>&lt;None&gt;</code>, enter the repository URL:
+                    <br><code>https://hadimariaali-droid.github.io/PenguinSurf/</code></li>
+                <li>Name the source <code>PenguinSurfRepo</code> and click **OK**.</li>
+                <li>Go back to the main menu and select **Add-ons**.</li>
+                <li>Select **Install from zip file** (you may need to enable unknown sources).</li>
+                <li>Select the source you just added: <code>PenguinSurfRepo</code>.</li>
+                <li>Select the repository file: <code>repository.penguinsurf.zip</code>.</li>
+                <li>Once installed, select **Install from repository**.</li>
+                <li>Choose **PenguinSurf Repository** and install the addons you want!</li>
+            </ol>
+        </div>
+
+        <h2>Addons Included in the Repository</h2>
+        <ul class="addon-list">
+            <li><strong>PenguinSurf (Video Addon)</strong>: Movies and TV Shows with multi-version support (Kodi 19, 20, 21).</li>
+            <li><strong>ArcticLive (Video Addon)</strong>: All English, Arabic, Japanese, Korean, French, Spanish, German, Italian live TV channels.</li>
+            <li><strong>SPEN (Sports Penguin Entertainment Network)</strong>: All English, Arabic, Japanese, Korean, French sports channels.</li>
+            <li><strong>PenguinDocumentary (Video Addon)</strong>: All English, Arabic, French, Japanese, Korean documentary movies.</li>
+            <li><strong>ScrapePenguin (Module)</strong>: Core scraping and conceptual region-free logic module.</li>
+            <li><strong>PenguinSurf Setup Wizard (Program Addon)</strong>: Helps configure and install the full suite of addons.</li>
+        </ul>
+
+        <h2>Repository Maintenance</h2>
+        <p>For developers, the repository files are hosted directly in this GitHub repository. The <code>generate_repo.py</code> script can be used to update the <code>addons.xml</code> and <code>addons.xml.md5</code> files after any changes.</p>
+    </div>
+</body>
+</html>
